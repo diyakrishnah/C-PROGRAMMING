@@ -4,7 +4,7 @@ int main(){
   char letter;
   printf("\nEnter a alphabet:");
   scanf(" %c",&letter);
-  if (letter='a'||'A'|| 'e'||'E'||'i'||'I'||'o'||'O'||'u'||'U'){
+  if (letter==('a'||'A'|| 'e'||'E'||'i'||'I'||'o'||'O'||'u'||'U')){
       printf("It is a vowel");
   }
   else{
