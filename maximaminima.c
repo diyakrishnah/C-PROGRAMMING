@@ -9,7 +9,7 @@ int main(){
     scanf("%d",&number[i]);
   }
   maxima=number[0];
-  minima=number[0];
+  minima=number[1];
   for(i=0;i<limit;i++){
     if (number[i]>maxima){
       maxima=number[i];
