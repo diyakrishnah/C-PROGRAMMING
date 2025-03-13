@@ -1,4 +1,4 @@
-
+//odd or even using function
 #include<stdio.h>
 void oddoreven(int num);
 int main(){
